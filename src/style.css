@@ -15,7 +15,7 @@
 }
 
 .thdiv {
-    height: 400px;
+    height: 380px;
 }
 
 .smico {
@@ -33,11 +33,34 @@
 }
 
 .ftrr {
-    padding: 20px;
+    padding: 20px 0px 20px 20px;
 }
 
 .cpr {
     padding-top: 20px;
 }
 
+p {
+    font-family: "Winky Sans", sans-serif;
+}
 
+h1 {
+    font-family: "Montserrat", sans-serif;
+}
+
+ul {
+    font-family: "Montserrat", sans-serif;
+}
+
+.logoo {
+    font-family: "Playwrite CU", cursive;
+}
+
+.snln {
+    margin: 0 20px 5px 5px;
+}
+
+.snln:hover {
+    background-color: #967AA1;
+    border-color: #967AA1;
+}
