@@ -3,7 +3,7 @@
 
 // Include any default variable overrides here (though functions won't be available)
 
-$primary: red; 
+$primary: #70ABAF; 
 $border-radius-lg:            25px;
 $position-values: (
   0: 0,
@@ -12,7 +12,11 @@ $position-values: (
   100: 100%
 );
 
-$nav-link-color:                    green;
+$secondary: #FFB20F;
+
+$success: #192A51;
+
+$nav-link-color:                    #192A51;
 
 $btn-border-radius-lg: 10px;
 @import "../node_modules/bootstrap/scss/bootstrap";
