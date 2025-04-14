@@ -18,7 +18,9 @@
     height: 400px;
 }
 
-
+.smico {
+    color: #192A51;
+}
 
 .lgim {
     height: 50px;
@@ -37,3 +39,5 @@
 .cpr {
     padding-top: 20px;
 }
+
+
