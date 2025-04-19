@@ -3,7 +3,8 @@
 }
 
 .contheight {
-    height: 800px;
+    height: auto;
+    width: auto;
 }
 
 .maintext {
@@ -40,6 +41,10 @@
     padding-top: 20px;
 }
 
+.desktp {
+    display:none;
+}
+
 p {
     font-family: "Winky Sans", sans-serif;
 }
@@ -63,4 +68,23 @@ ul {
 .snln:hover {
     background-color: #967AA1;
     border-color: #967AA1;
+}
+
+@media (max-width: 640px) {
+
+}
+@media (min-width:640px) and (max-width: 768px) {
+
+}
+
+@media (min-width: 768px) and (max-width:992px){
+    .desktp {
+        display: block;
+    }
+}
+
+@media (min-width: 992px) and (max-width:1200px) {
+    .desktp {
+        display: block;
+    }
 }
